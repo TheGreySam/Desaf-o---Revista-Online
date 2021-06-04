@@ -1,0 +1,66 @@
+body {
+  background-color: blue;
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px;
+  /* Used in this example to enable scrolling */
+}
+
+.boton {
+  border-color: black;
+  color: black;
+  background-color: white;
+  padding: 10pt;
+}
+.boton:hover, .boton:focus, .boton:active {
+  background-color: grey !important;
+  border-color: black !important;
+  color: white !important;
+  box-shadow: none;
+}
+
+/*# sourceMappingURL=main.css.map */
